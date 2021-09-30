@@ -51,7 +51,7 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.B, function () {
     basic.clearScreen()
-    for (let index2 = 0; index2 < 100; index2++) {
+    for (let index2 = 0; index2 < 50; index2++) {
         _2 = 0
         if (_1 >= 4) {
             index = -1
@@ -72,8 +72,8 @@ input.onButtonPressed(Button.B, function () {
         _3 += _4
         _5 += _6
         for (let index2 = 0; index2 < 5; index2++) {
-            led.plotBrightness(_5, _2, 20)
-            led.plotBrightness(_3, _2, 60)
+            led.plotBrightness(_5, _2, 0)
+            led.plotBrightness(_3, _2, 117)
             led.plot(_1, _2)
             _2 += 1
         }
